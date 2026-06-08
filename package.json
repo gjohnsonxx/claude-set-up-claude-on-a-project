@@ -1,0 +1,20 @@
+{
+  "name": "claude-course-starter",
+  "version": "1.0.0",
+  "description": "Starter Express API for the Claude Code course projects.",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node --watch server.js",
+    "start": "node server.js",
+    "test": "node --test",
+    "lint": "eslint ."
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "supertest": "^7.0.0"
+  }
+}
